@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/login.css" type="text/css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-light bg-dark">
+                <div class="container-fluid">
+                    <div>
+                        <img class="rounded-circle mr-3" src="img/logo.gif" alt="Logo do Site">
+                        <a class="navbar-brand text-white" href="#"></a>
+                    </div>
+            </nav>
+        </header>
+        <div id="login-container">
+            <h2>Entrar na JcTechnology</h2>
+            <form action="">
+                <label for="email" id="email">Insira seu E-mail Corporativo</label>
+                <input type="email" name="email" id="e-mail" placeholder="Digite o Seu e-mail">
+                
+                <label for="password" id="senha">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Digite a sua Senha" checked="senha"> 
+                
+                <input type="submit" id="bot" value="login">  
+                <fieldset>
+                    <legend id="txt">Escolha seu tipo de usuário:</legend>
+                    <input type="radio" id="menu" name="type-user" value="empresa">
+                    <label for="empresa">Empresa</label><br>
+                    <input type="radio" id="menu" name="type-user" value="emp-colaborador">
+                    <label for="emp-colab">Colaborador da Empresa</label><br>
+                    <input type="radio" id="menu" name="type-user" value="colaborador">
+                    <label for="colaborador">Nosso Colaborador</label><br>
+                </fieldset>
+                <div id="register-container">
+                    <p>Ainda não tem cadastro?</p>
+                    <a href="cadastro.html" id="cadastro">Cadastre-se a sua empresa</a>  
+                </div>            
+            </form>    
+            <footer>
+                <div class="container-fluid bg-dark p-3">
+                    <div class="row">
+                        <div class="col-sm-12 text-white text-center">
+                            <p class="mb-0">Termos de Condição</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

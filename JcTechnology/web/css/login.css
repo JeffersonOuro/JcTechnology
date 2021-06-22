@@ -1,0 +1,79 @@
+/*Geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+}
+
+body{
+    background-size: cover;
+}
+textarea:focus, imput:focus{
+outline: none;
+}
+
+img{
+    width: 150px;
+    height: 150px; 
+}
+h2{
+    padding: 50px 0px 50px 0px;
+}
+#login-container{
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+    font-family: bold;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+input{
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+    font-family: bold;
+    border-color: red;
+  
+}
+#txt{
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+#register-container{
+    padding: 100px 0px 50px 10px;
+    text-transform: uppercase;
+}
+   
+
+#password, #e-mail{
+    font-family: bold;
+
+    border-width: 1px;
+    border-style: inset;
+    border-color: black;
+    display: table-columne;  
+   
+   
+}
+#bot{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-width: 1px;
+    border-style: inset;
+    border-color: black;
+    padding: 2px;
+    border-radius: 8px;
+}
